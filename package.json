@@ -1,0 +1,28 @@
+{
+  "name": "expanding-cards",
+  "version": "1.0.0",
+  "description": "Um projeto que envolve espandir cards",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/not-user0/expanding-cards.git"
+  },
+  "keywords": [
+    "Javascript",
+    "TypeScript",
+    "Html",
+    "Css"
+  ],
+  "author": "Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/not-user0/expanding-cards/issues"
+  },
+  "homepage": "https://github.com/not-user0/expanding-cards#readme",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
+}
