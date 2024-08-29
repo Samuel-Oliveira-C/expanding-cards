@@ -50,7 +50,12 @@
     width: 15vw;
     height: 70vh;
     align-items: flex-end;
+    border-radius: 50px;
 }
 .panel h2{
     color: white;
+    font-size: 26px;
+}
+.div-Active{
+    
 }
