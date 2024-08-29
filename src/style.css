@@ -46,6 +46,11 @@
     background-repeat: no-repeat;
 }
 .panel{
+    display: flex;
     width: 15vw;
     height: 70vh;
+    align-items: flex-end;
+}
+.panel h2{
+    color: white;
 }
