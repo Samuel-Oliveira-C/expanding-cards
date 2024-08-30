@@ -67,4 +67,6 @@
     color: white;
     font-size: 26px;
     padding-left: 30px;
+    padding-bottom: 30px;
+    transition: opacity 0.3s ease-in 0.4s;
 }
