@@ -51,15 +51,22 @@
     height: 70vh;
     align-items: flex-end;
     border-radius: 50px;
-    flex: 1;
-    margin-left: 20px;
+    flex: 0.5;
+    margin: 10px;
     cursor: pointer;
+    position: relative;
 }
 .panel h2{
+    display: none;
+}
+.div-Active{
+    flex: 5;
+}
+.div-Active h2{
+    display: flex;
     color: white;
     font-size: 26px;
     padding-left: 30px;
-}
-.div-Active{
-    flex: 7;
+    padding-bottom: 30px;
+    transition: opacity 0.3s ease-in 0.4s;
 }
