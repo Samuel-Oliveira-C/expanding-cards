@@ -2,33 +2,27 @@
 
 //TODO Antes de fazer o plano acima, Fazer a interação, no caso com o evento de Click
 
-// Definindo tipos
-type PanelElement = HTMLElement;
+
 
 // Selecionando elementos
-const panelElements: NodeListOf<PanelElement> = document.querySelectorAll('.panel');
-const initialActivePanel: PanelElement | null = document.querySelector('.div-Active');
+const panelElements: NodeListOf<Element> = document.querySelectorAll('.panel');
+
 
 // Função para remover a classe ativa de todos os painéis
 const removeActiveClass = (): void => {
-    panelElements.forEach((panel: PanelElement) => {
+    panelElements.forEach((panel: Element) => {
         panel.classList.remove('div-Active');
     });
 };
 
 // Função para adicionar a classe ativa a um painel
-const setActivePanel = (panel: PanelElement): void => {
+const setActivePanel = (panel: Element): void => {
     removeActiveClass();
     panel.classList.add('div-Active');
 };
 
 // Adicionando event listeners
-panelElements.forEach((panel: PanelElement) => {
+panelElements.forEach((panel: Element) => {
     panel.addEventListener('click', () => setActivePanel(panel));
 });
-
-// Inicialização (opcional)
-if (initialActivePanel) {
-    setActivePanel(initialActivePanel);
-}
 
